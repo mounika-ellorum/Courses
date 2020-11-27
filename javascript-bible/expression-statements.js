@@ -8,36 +8,36 @@
  * 
  */
 
-//  /**
-//   * TASK 1
-//   * is exp or stmnt?
-//   */
+ /**
+  * TASK 1
+  * is exp or stmnt?
+  */
 
-//   const myObj = {
-//       x: 10,
-//       y: true
-//   };
-// //   console.log(delete myObj.x);
-// // "delete" operator is used in expressions
+  const myObj = {
+      x: 10,
+      y: true
+  };
+//   console.log(delete myObj.x);
+// "delete" operator is used in expressions
   
-// //   delete myObj.x; // Expression stmnt
+//   delete myObj.x; // Expression stmnt
 
-// /**
-//  * TASK 2
-//  */
-// function fn() {
-//     console.log("hello frm 'fn' function");
+/**
+ * TASK 2
+ */
+function fn() {
+    console.log("hello frm 'fn' function");
 
-//     return function(a) {
-//         console.log(a);
-//     };
-// }
+    return function(a) {
+        console.log(a);
+    };
+}
 
-// // fn()
-// // (true) ---> fn()(true)  // result -->
-// //  hello frm fn ...
-// //  true
+// fn()
+// (true) ---> fn()(true)  // result -->
+//  hello frm fn ...
+//  true
 
-// // fn();
-// // (true) --> result
-// // hello from fn...
+// fn();
+// (true) --> result
+// hello from fn...
