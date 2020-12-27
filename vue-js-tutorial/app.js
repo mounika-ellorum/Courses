@@ -17,3 +17,25 @@ const app = Vue.createApp({
 });
 
 app.mount('#assignment');
+
+const appTwo = Vue.createApp({
+    data() {
+        return {
+            input: '',
+            confirmedInput: '',
+        }
+    },
+    methods: {
+        showAlert() {
+            alert('helo welcome');
+        },
+        saveInput(event) {
+            this.input = event.target.value;
+        },
+        confirmInput() {
+            this.confirmedInput = this.input;
+        }
+    }
+});
+
+appTwo.mount('#assignment-two');
