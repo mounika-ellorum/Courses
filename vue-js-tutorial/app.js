@@ -75,3 +75,43 @@ const appThree = Vue.createApp({
     }
 });
 appThree.mount('#assignment-three');
+
+/// assignment 4
+const appFour = Vue.createApp({ 
+    data() {
+        return {
+            inputClass: '',
+            paragraphIsVisible: true,
+        };
+    },
+    methods: {
+        toggleParagraphVisibility() {
+            this.paragraphIsVisible = !this.paragraphIsVisible;
+        }
+    }
+});
+appFour.mount('#assignment-four');
+
+// assignment 5 
+
+const appFive = Vue.createApp({
+    data() {
+        return {
+            tasks: [],
+            enteredTaskValue: '',
+            isListHidden: false
+        }
+    },
+    methods: {
+        addTask() {
+            this.tasks.push(this.enteredTaskValue);
+            
+        },
+        toggleTasks() {
+            this.isListHidden = !this.isListHidden;
+            
+        },
+        
+    }
+});
+appFive.mount('#assignment-five');

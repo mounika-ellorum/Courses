@@ -39,3 +39,22 @@ button {
     cursor: pointer;
     border: 1px solid #970076;
 }
+.user1 {
+    background-color: blue;
+    color: white;
+}
+.user2 {
+    background-color: purple;
+    color: white;
+}
+.hidden {
+    display: none;
+}
+.visible {
+    display: block;
+}
+.healthbar__value {
+    height: 50px;
+    width: 100%;
+    background: green;
+}
