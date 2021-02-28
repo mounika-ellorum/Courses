@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vue Basics</title>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://unpkg.com/vue@next" defer></script>
+        <script src="app.js" defer></script>
+      </head>
+      <body>
+          <header>
+              <h1>Reactivity in Action</h1>
+          </header>
+          <!-- assignment 3-->
+          <section id="assignment-three">
+            <button @click="addNumber(5)">Add 5</button>
+            <button @click="addNumber(1)">Add 1</button>
+            <!-- 1) connect buttons and calculate a value (a number)-->
+            <!-- show "Not there yet" until you reach  result of exactly what you want-->
+            <!-- Show "Too Much!" if the result is greater that 37 -->
+            <p>Result: {{result}}</p>
+            <!-- 2) Watch for changes in "result" and reset the value to 0 after 5seconds-->
+          </section>
+      </body>
+</html>

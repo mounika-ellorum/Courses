@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue Basics</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <!-- assignment 1-->
+   <section id="assignment">
+      <!-- 1) output your name -->
+      <h2>{{ name }}</h2>
+      <!-- 2) output your age -->
+      <p>{{ age }}</p>
+      <!-- 3) output your age + 5 -->
+      <p>{{ calculateAge() }} in 5 years</p>
+      <!-- 4) o/p a random num (0 to 1)-->
+      <p>Favorite Number: {{ calculateRandom() }}</p>
+      <div>
+        <!-- 5) display some image you found via google-->
+        <img v-bind:src="imageUrl" />
+      </div>
+      <!-- 6) populate the i/p field with your name via "value"-->
+      <input type="text" v-bind:value="name"/>
+    </section>
+    <section id="assignment2">
+
+    </section>
+  </body>
+</html>
